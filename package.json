@@ -1,0 +1,21 @@
+{
+  "name": "tutorial_node_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gtodesco/tutorial_node_js.git",
+  "author": "Gabriel Todesco <gabriel.todesco97@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.18.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}
