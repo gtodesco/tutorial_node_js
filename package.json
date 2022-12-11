@@ -9,7 +9,7 @@
     "dev": "nodemon src/server.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mysql2": "^2.1.0",
     "pg": "^7.18.1",
     "pg-hstore": "^2.3.3",
